@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+main h1{
+    text-transform: uppercase;
+}
+
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 250px;
+    background-color: #000;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+.base .bola1{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #000;
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.base .bola2{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #000;
+    border: 2px solid rgb(189, 189, 189);
+    margin: 10px auto;
+}
+
+.base .bola3{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #000;
+    border: 2px solid rgb(189, 189, 189);
+}
+
+button{
+    cursor: pointer;
+}
+
+.botoes .verde{
+    background-color: green;
+    color: #000;
+    width: 70px;
+    height: 30px;
+    text-transform: uppercase;
+    padding: auto;
+}
+
+.botoes .amarelo{
+    background-color: yellow;
+    color: #000;
+    width: 80px;
+    height: 30px;
+    text-transform: uppercase;
+    padding: 0px 5px;
+}
+
+.botoes .vermelho{
+    background-color: red;
+    color: #000;
+    width: 70px;
+    height: 30px;
+    text-transform: uppercase;
+}
